@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.child {
+  width: 97vw;
+  position: relative;
+  left: calc(-50vw + 52%);
+}
+.resp-header {
+    @apply s:top-8 s:w-[40%] s:rounded-lg s:py-4 s:left-0 bg-white s:z-20 s:absolute s:border-[2px]
+}
+.resp-header-l {
+    @apply l:w-full l:z-0 l:rounded-none l:py-0 l:static l:flex l:border-0
+}
+.resp-mb {
+    @apply  s:mb-8 x:mb-0
+}
+.bor-1 {
+    @apply border-b-[1px]
+}
+.child1 {
+    width: 84vw;
+  position: relative;
+  left: calc(-50vw + 62%);
+}
+.child2 {
+    width: 90vw;
+  position: relative;
+  left: calc(-50vw + 59%);
+}
